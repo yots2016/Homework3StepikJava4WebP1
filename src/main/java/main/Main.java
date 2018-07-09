@@ -21,7 +21,6 @@ public class Main {
         server.setHandler(context);
 
         server.start();
-//        System.out.println("Server started");
         Logger.getLogger(Main.class.getName()).info("Server started");
         server.join();
 
